@@ -1,3 +1,5 @@
+[![.github/workflows/azure-webapps-node.yml](https://github.com/boqo-nextgen/Melodie/actions/workflows/azure-webapps-node.yml/badge.svg?branch=main)](https://github.com/boqo-nextgen/Melodie/actions/workflows/azure-webapps-node.yml)
+
 # MelodiePortaal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
