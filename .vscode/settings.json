@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/e4af3db9-7bf7-4c34-b82f-0f34e01db69a/resourceGroups/Melodie-RG-O/providers/Microsoft.Web/sites/Melodie-O",
+    "appService.deploySubpath": "dist"
+}
