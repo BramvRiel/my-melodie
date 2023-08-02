@@ -62,7 +62,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        path: release.zip
+        path: dist/${{ env.AZURE_WEBAPP_NAME }}/release.zip
 
   deploy:
     permissions:
