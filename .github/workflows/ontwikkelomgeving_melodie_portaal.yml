@@ -86,6 +86,6 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: APP-${{ vars.MELODIE_OTAP_WAARDE }}-${{ env.AZURE_WEBAPP_NAME }}
+        app-name: app-o-${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
