@@ -26,8 +26,6 @@ const routes: Routes = [
     HttpClientModule
   ],
   providers: [LoginService],
-  bootstrap: [AppComponent],
-  exports: [
-    RouterModule]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
