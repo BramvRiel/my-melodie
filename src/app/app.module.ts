@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 
 import { RouterModule, Routes } from '@angular/router';
+import { LoginService } from './login.service';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -24,7 +25,7 @@ const routes: Routes = [
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [LoginService],
   bootstrap: [AppComponent],
   exports: [
     RouterModule]
