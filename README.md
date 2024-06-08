@@ -1,5 +1,7 @@
 [![.github/workflows/ontwikkelomgeving_melodie_portaal.yml](https://github.com/boqo-nextgen/Melodie/actions/workflows/ontwikkelomgeving_melodie_portaal.yml/badge.svg)](https://github.com/boqo-nextgen/Melodie/actions/workflows/ontwikkelomgeving_melodie_portaal.yml)
 
+[![.github/workflows/ontwikkelomgeving_melodie_portaal.yml](https://github.com/BramvRiel/my-melodie/actions/workflows/ontwikkelomgeving_melodie_portaal.yml/badge.svg?branch=main)](https://github.com/BramvRiel/my-melodie/actions/workflows/ontwikkelomgeving_melodie_portaal.yml)
+
 # Setup
 
 Draai infrastructuur/main.bicep. Download het publish profile van de app service en bewaar deze in de secret AZURE_WEBAPP_PUBLISH_PROFILE in de omgeving. Trap de action ontwikkelomgeving_melodie_portaal.yml af.
